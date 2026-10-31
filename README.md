@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mrkeyoor-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mrkeyoor.com/
+MrKeyoor is a curated platform that reviews, benchmarks, and reports on open‑source software, libraries, and AI tools. It aggregates independent measurements, provides daily updates on repositories, and offers MCP (Machine‑Computed Performance) server evaluations. The site delivers news, technical deep‑dives, and editorial content for developers seeking reliable open‑source insights.
+
+**Areas:** Company · Open-Source · Reviews · Benchmarks · Developer News
+
+## mrkeyoor-com on APIs.io
+
+Everything profiled for mrkeyoor-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mrkeyoor-com/](https://apis.io/providers/mrkeyoor-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [MCP](https://apis.io/apis/mrkeyoor-com/mcp/) — Every MCP server here was booted on a clean machine: does it start, how many tools it lists, and what its tools/list costs your context window.
+- [mrkeyoor-com API](https://apis.io/apis/mrkeyoor-com/mrkeyoor-com-api/) — mrkeyoor-com API as documented publicly: 68 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1ProjectsProjectidAddonsAddonidBackupsBackupidResponse](https://apis.io/schemas/mrkeyoor-com/mrkeyoor-com-get-v1-projects-projectid-addons-addonid-backups-backupid-response/)
+- [GetV1ProjectsProjectidAddonsAddonidContainersResponse](https://apis.io/schemas/mrkeyoor-com/mrkeyoor-com-get-v1-projects-projectid-addons-addonid-containers-response/)
+- [GetV1TeamsTeamidProjectsProjectidAddonsAddonidBackupsBackupi](https://apis.io/schemas/mrkeyoor-com/mrkeyoor-com-get-v1-teams-teamid-projects-projectid-addons-addonid-backups-backupi/)
+- [GetV1TeamsTeamidProjectsProjectidAddonsAddonidContainersResp](https://apis.io/schemas/mrkeyoor-com/mrkeyoor-com-get-v1-teams-teamid-projects-projectid-addons-addonid-containers-resp/)
+- [PostV1TeamsTeamidProjectsProjectidAddonsRequest](https://apis.io/schemas/mrkeyoor-com/mrkeyoor-com-post-v1-teams-teamid-projects-projectid-addons-request/)
+- [PutV1TeamsTeamidProjectsProjectidAddonsRequest](https://apis.io/schemas/mrkeyoor-com/mrkeyoor-com-put-v1-teams-teamid-projects-projectid-addons-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mrkeyoor Com Context](https://apis.io/jsonld/mrkeyoor-com/mrkeyoor-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [mrkeyoor-com API Rules](https://apis.io/rules/mrkeyoor-com/mrkeyoor-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mrkeyoor Com Domain Security](https://apis.io/security/mrkeyoor-com/mrkeyoor-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mrkeyoor.com/)
+- [Getting started](https://mrkeyoor.com/repos/deepseek-harness-easy-setup/)
+- [Support](https://mrkeyoor.com/contact/)
+- [Privacy policy](https://mrkeyoor.com/privacy/)
+- [GitHub](https://github.com/mrkeyoor)
+
+## API Evangelist rating
+
+**Kin Score 35.3** — thin · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 23.7 |
+
+**Agent readiness 16.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mrkeyoor-com/](https://apis.io/providers/mrkeyoor-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mrkeyoor-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mrkeyoor-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
